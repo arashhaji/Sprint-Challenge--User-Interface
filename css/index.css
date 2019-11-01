@@ -126,7 +126,6 @@ header{
 }
 .about-middle-container p{
     margin:10px 0px;
-    border-bottom:1px dashed black;
 }
 .about-topics{
     width: 50%;
@@ -140,14 +139,17 @@ header{
 }
 .middel-content .about-topics{
     margin-bottom: 20px;
+   
 }
 .middel-content .about-topics h2{
     margin-top:5px;
-    margin-bottom:5px;
+    margin-bottom:5px;  
 }
 .middle-content h2{
     padding: 0 2%;
     margin-bottom: 0%;
+    text-align: left;
+    padding: 2%;
 }
 .middel-content .boxes{
     display: flex;
@@ -193,13 +195,13 @@ header{
     background-color: darkorchid;
 }
 #box8{
-    background-color: hot pink;
+    background-color: hotpink;
 }
 #box9{
     background-color: indigo;
 }
 #box10{
-    background-color: dogerblue;
+    background-color: dodgerblue;
 }
 .bottom-content {
     display: flex;
@@ -211,11 +213,12 @@ header{
     padding-right: 4%;
 }
 
-.bottom-content .text-container:last-child {
+.bottom-content .text-container{
     padding-right: 0;
 }
 .about-bottom-content{
     padding-right: 0;
+    padding-bottom: 1%;
 }
 footer {
     width: 100%;
