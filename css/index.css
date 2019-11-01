@@ -71,6 +71,31 @@ p {
     margin: 0 auto;
 }
 
+header{
+    display: flex;
+}
+
+.top-nav {
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    font-size: 14px;
+
+}
+
+.top-nav a{
+    text-decoration: none;
+    color: black;
+}
+#img-home-top{
+    margin:25px 0px;
+}
+
+#img-jumbo-top{
+    margin:25px 0px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -78,7 +103,13 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
+.top-text-about{
+    margin-bottom:20px;
+    border-bottom:1px dashed black;
+}
+.top-text-about p{
+    margin-bottom:20px;
+}
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
@@ -87,12 +118,41 @@ p {
 
 .middle-content {
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
 }
-
-.middle-content h2 {
+.about-middle-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.about-middle-container p{
+    margin:10px 0px;
+    border-bottom:1px dashed black;
+}
+.about-topics{
+    width: 50%;
+}
+.about-topics button{
+    background-color: white;
+    padding:10px 20px;
+    border-radius: 25%;
+    border: 2px solid black;
+    margin: 10px;
+}
+.middel-content .about-topics{
+    margin-bottom: 20px;
+}
+.middel-content .about-topics h2{
+    margin-top:5px;
+    margin-bottom:5px;
+}
+.middle-content h2{
     padding: 0 2%;
-    margin-bottom: 0;
+    margin-bottom: 0%;
+}
+.middel-content .boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .middle-content .boxes {
@@ -111,7 +171,36 @@ p {
     align-items: center;
     justify-content: center;
 }
-
+#box1{
+    background-color: teal;
+}
+#box2{
+    background-color:gold;
+}
+#box3{
+    background-color: cadetblue;
+}
+#box4{
+    background-color: coral;
+}
+#box5{
+    background-color: crimson;
+}
+#box6{
+    background-color: forestgreen;
+}
+#box7{
+    background-color: darkorchid;
+}
+#box8{
+    background-color: hot pink;
+}
+#box9{
+    background-color: indigo;
+}
+#box10{
+    background-color: dogerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -125,7 +214,9 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-
+.about-bottom-content{
+    padding-right: 0;
+}
 footer {
     width: 100%;
     background: black;
